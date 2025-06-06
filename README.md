@@ -1,11 +1,3 @@
-"""
-NoBoundaryVideoDownloader
-
-Public
-
-Download your videos with best quality, no boundary
-"""
-
 This is a functional application that allows you to quickly download videos with the best sound and image quality with a simple interface and has no download limitations.
 You can use it easily on your computer with the main.exe file in the dist file.
 
