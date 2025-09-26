@@ -1,6 +1,30 @@
-This is a functional application that allows you to quickly download videos with the best sound and image quality with a simple interface and has no download limitations.
-You can use it easily on your computer with the main.exe file in the dist file.
+TR
+🎬 Sınırsız Video İndirici
+Web üzerindeki 2 saat sınırı olan video indiriciler, ücretli servisler ve reklamlardan kurtulmak için geliştirdiğim bu sınırsız video indirici uygulamasını sizinle paylaşmak istedim.
 
-⚠️ The false positives seen in VirusTotal are entirely due to the conversion to exe format with PyInstaller.
+🚀 Nasıl Çalıştırılır?
+Kodu bir editörde (örneğin VS Code) açın.
 
-🚀 Don't forget to give a star if this application was useful to you!
+Gerekli ama sisteminizde yüklü olmayan kütüphaneleri yükleyin.
+
+main.py dosyasını çalıştırın.
+
+URL ve indirme konumunu seçtikten sonra uygulama, videoyu en iyi video ve ses kalitesinde indirmeye başlayacaktır.
+
+Threading özelliği sayesinde indirme işlemi kısa sürede tamamlanır.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+ENG
+🎬 Unlimited Video Downloader
+I created this unlimited video downloader to bypass the 2-hour limit, paid services, and annoying ads found in most online downloaders—and now I’m sharing it with you.
+
+🚀 How to Run
+Open the code in an editor (e.g., VS Code).
+
+Install any required libraries that are missing from your system.
+
+Run the main.py file.
+
+After selecting the video URL and download location, the app will begin downloading the video in the best available video and audio quality.
+
+Thanks to threading, the download will complete in a short time.
