@@ -1,4 +1,5 @@
 TR
+
 🎬 Sınırsız Video İndirici
 Web üzerindeki 2 saat sınırı olan video indiriciler, ücretli servisler ve reklamlardan kurtulmak için geliştirdiğim bu sınırsız video indirici uygulamasını sizinle paylaşmak istedim.
 
@@ -16,6 +17,7 @@ Threading özelliği sayesinde indirme işlemi kısa sürede tamamlanır.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ENG
+
 🎬 Unlimited Video Downloader
 I created this unlimited video downloader to bypass the 2-hour limit, paid services, and annoying ads found in most online downloaders—and now I’m sharing it with you.
 
