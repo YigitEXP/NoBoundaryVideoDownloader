@@ -12,6 +12,7 @@ main.py dosyasını çalıştırın.
 URL ve indirme konumunu seçtikten sonra uygulama, videoyu en iyi video ve ses kalitesinde indirmeye başlayacaktır.
 
 Threading özelliği sayesinde indirme işlemi kısa sürede tamamlanır.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ENG
