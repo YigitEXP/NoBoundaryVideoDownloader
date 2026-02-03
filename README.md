@@ -1,5 +1,7 @@
 🎬 No Boundary Video Downloader
-<p align="center"> <img src="https://raw.githubusercontent.com/YigitEXP/NoBoundaryVideoDownloader/main/NoBoundaryLogo.ico" width="300" alt="No Boundary Logo"> </p>
+<p align="center">
+  <img src="sample/NoBoundaryLogo.png" width="200" height="auto" alt="No Boundary Logo">
+</p>
 
 🇹🇷 Hikayesi Ne?
 İnternetten ne zaman uzun bir video indirmek istesem karşıma hep aynı engeller çıktı: "2 saatten uzun video indiremezsin", "Şu boyuttan büyükse olmaz", "HD kalite için premium satın al" ya da her yerinden reklam fışkıran o yavaş siteler...
@@ -44,6 +46,6 @@ All-in-One: FFmpeg is built-in for a true portable experience.
 High Speed: Uses threading to fetch and merge your videos as fast as possible.
 
 ⚠️ Küçük Bir Not / A Quick Note
-TR: Uygulama henüz sertifikalı (imzalı) bir yazılım olmadığı için Windows çalıştırırken bir uyarı verebilir. Açık kaynak kodlu ve güvenlidir; "Ek Bilgi" -> "Yine de Çalıştır" diyerek geçebilirsiniz.
+TR: Uygulama henüz sertifikalı bir yazılım olmadığı için Windows çalıştırırken bir uyarı verebilir. Açık kaynak kodlu ve güvenlidir; "Ek Bilgi" -> "Yine de Çalıştır" diyerek geçebilirsiniz.
 
 ENG: Since the .exe is not digitally signed, Windows might show a warning. It's open-source and safe; just click "More Info" -> "Run Anyway" to start.
