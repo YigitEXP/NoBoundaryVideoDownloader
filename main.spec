@@ -1,18 +1,20 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+block_cipher = None
 
 a = Analysis(
     ['main.py'],
     pathex=[],
-    binaries=[],
+    binaries=[('ffmpeg.exe', '.')],
     datas=[],
-    hiddenimports=[],
+    hiddenimports=['tkinter', 'tkinter.filedialog', 'tkinter.messagebox', 'threading', 'yt_dlp', 'webbrowser'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],
     noarchive=False,
     optimize=0,
+    cipher=block_cipher,
 )
 pyz = PYZ(a.pure)
 
@@ -22,7 +24,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='main',
+    name='NoBoundaryVideoDownloader',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -35,4 +37,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon='NoBoundaryLogo.ico'  # Add icon if available
 )

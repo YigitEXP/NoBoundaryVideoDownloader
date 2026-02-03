@@ -1,2 +1,32 @@
+# IDE and environment files
 /.idea
 /.venv
+*.swp
+*.swo
+*~
+
+# Build artifacts
+/build/
+/dist/
+*.spec
+
+# Large binaries and executables
+*.exe
+*.zip
+*.tar.gz
+*.rar
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

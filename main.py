@@ -4,6 +4,20 @@ import threading
 import yt_dlp
 import os
 import webbrowser
+import sys
+
+
+def get_ffmpeg_path():
+    """Get the path to bundled ffmpeg.exe"""
+    if getattr(sys, 'frozen', False):
+        # Running as compiled exe
+        base_path = sys._MEIPASS
+    else:
+        # Running as script
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    
+    ffmpeg_path = os.path.join(base_path, 'ffmpeg.exe')
+    return ffmpeg_path if os.path.exists(ffmpeg_path) else None
 
 
 class NoBoundaryFreeDownloader(tk.Frame):
@@ -59,12 +73,14 @@ class NoBoundaryFreeDownloader(tk.Frame):
 
         self.status_label.config(text=f"Downloading to {path}")
 
+        ffmpeg_path = get_ffmpeg_path()
+        
         ytdlp_options = {
             'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]',
             'outtmpl': os.path.join(path, '%(title).40s_Akturk_.%(ext)s'),
             'noplaylist': True,
             'progress_hooks': [self.hook],
-            'ffmpeg_location': None
+            'ffmpeg_location': ffmpeg_path
         }
 
         try:
