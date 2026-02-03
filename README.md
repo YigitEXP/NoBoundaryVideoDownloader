@@ -1,35 +1,49 @@
-(Güncelleniyor)
-//
-TR
+🎬 No Boundary Video Downloader
+<p align="center"> <img src="https://raw.githubusercontent.com/YigitEXP/NoBoundaryVideoDownloader/main/NoBoundaryLogo.ico" width="300" alt="No Boundary Logo"> </p>
 
-🎬 Sınırsız Video İndirici: 
-Web üzerindeki 2 saat sınırı olan video indiriciler, ücretli servisler ve reklamlardan kurtulmak için geliştirdiğim bu sınırsız video indirici uygulamasını sizinle paylaşmak istedim.
+🇹🇷 Hikayesi Ne?
+İnternetten ne zaman uzun bir video indirmek istesem karşıma hep aynı engeller çıktı: "2 saatten uzun video indiremezsin", "Şu boyuttan büyükse olmaz", "HD kalite için premium satın al" ya da her yerinden reklam fışkıran o yavaş siteler...
+
+Bir bilgisayar mühendisliği öğrencisi olarak bu kısıtlamalardan sıkıldım ve kendi çözümümü üretmeye karar verdim. No Boundary, bu sınırları aşmak ve tertemiz bir indirme deneyimi yaşamak için doğdu. Uzun zamandır kendi bilgisayarımda manuel (kod üzerinden) kullanıyordum, ancak artık herkesin rahatça kullanabilmesi için bir .exe haline getirmenin vakti gelmişti.
 
 🚀 Nasıl Çalıştırılır?
-Kodu bir editörde (örneğin VS Code) açın.
+İndir: Buraya tıklayarak güncel .exe dosyasını indirin.
 
-Gerekli ama sisteminizde yüklü olmayan kütüphaneleri yükleyin.
+Çalıştır: main.exe dosyasına çift tıklayın. (İçinde her şey dahil; ne Python ne de FFmpeg kurmanıza gerek var, her şeyi ben hallettim!)
 
-main.py dosyasını çalıştırın.
+Keyfini Çıkar: Linki yapıştırın, klasörü seçin ve arkanıza yaslanın.
 
-URL ve indirme konumunu seçtikten sonra uygulama, videoyu en iyi video ve ses kalitesinde indirmeye başlayacaktır.
+⚡ Neden Bunu Kullanmalısın?
+Sınırları Zorla: 2 saatmiş, 10 saatmiş fark etmez; hiçbir süre veya boyut sınırı yok.
 
-Threading özelliği sayesinde indirme işlemi kısa sürede tamamlanır.
+Tertemiz: Reklam yok, "premium al" baskısı yok. Sadece işini yapar.
 
------------------------------------------------------------------------------------------------------------------------------------------------
+Tak-Çalıştır: FFmpeg uygulamanın içine gömülüdür, dışarıdan hiçbir bağımlılık istemez.
 
-ENG
+Hızlı: Threading yapısı sayesinde videoyu hızla indirir ve birleştirir.
 
-🎬 Unlimited Video Downloader: 
-I created this unlimited video downloader to bypass the 2-hour limit, paid services, and annoying ads found in most online downloaders—and now I’m sharing it with you.
+🇺🇸 The Story Behind
+Whenever I wanted to download a long video, I faced the same annoying walls: "Videos over 2 hours not allowed", "File size too large", "Pay for HD quality", or those sketchy websites overflowing with ads.
+
+As a computer engineering student, I got tired of these limits and decided to build my own way out. No Boundary was born to crush these restrictions and provide a seamless downloading experience. I've been using it manually for a while, but I figured it was finally time to bundle it into an .exe and share it with everyone.
 
 🚀 How to Run
-Open the code in an editor (e.g., VS Code).
+Download: Get the standalone .exe right here.
 
-Install any required libraries that are missing from your system.
+Run: Just double-click main.exe. (Everything is pre-bundled; no Python or FFmpeg installation required—I've got you covered!)
 
-Run the main.py file.
+Enjoy: Paste the URL, choose your path, and let it rip.
 
-After selecting the video URL and download location, the app will begin downloading the video in the best available video and audio quality.
+⚡ Why No Boundary?
+No Limits: 2 hours? 10 hours? It doesn't matter. Total freedom.
 
-Thanks to threading, the download will complete in a short time.
+Ad-Free: No clutter, no "Go Pro" pop-ups. Just pure code.
+
+All-in-One: FFmpeg is built-in for a true portable experience.
+
+High Speed: Uses threading to fetch and merge your videos as fast as possible.
+
+⚠️ Küçük Bir Not / A Quick Note
+TR: Uygulama henüz sertifikalı (imzalı) bir yazılım olmadığı için Windows çalıştırırken bir uyarı verebilir. Açık kaynak kodlu ve güvenlidir; "Ek Bilgi" -> "Yine de Çalıştır" diyerek geçebilirsiniz.
+
+ENG: Since the .exe is not digitally signed, Windows might show a warning. It's open-source and safe; just click "More Info" -> "Run Anyway" to start.
