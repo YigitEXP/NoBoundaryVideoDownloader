@@ -1,35 +1,37 @@
-(Güncelleniyor)
-//
-TR
-
-🎬 Sınırsız Video İndirici: 
-Web üzerindeki 2 saat sınırı olan video indiriciler, ücretli servisler ve reklamlardan kurtulmak için geliştirdiğim bu sınırsız video indirici uygulamasını sizinle paylaşmak istedim.
+🇹🇷
+🎬 No Boundary Video Downloader Web üzerindeki süre sınırlarından, ücretli üyeliklerden ve sinir bozucu reklamlardan kurtulmanız için geliştirildi. Artık portable yapısı sayesinde kurulum gerektirmeden çalışır!
 
 🚀 Nasıl Çalıştırılır?
-Kodu bir editörde (örneğin VS Code) açın.
 
-Gerekli ama sisteminizde yüklü olmayan kütüphaneleri yükleyin.
+İndir: Projenin [Releases] kısmından güncel .exe dosyasını indirin.
 
-main.py dosyasını çalıştırın.
+Çalıştır: main.exe dosyasına çift tıklayın. (FFmpeg ve gerekli tüm bağımlılıklar pakete dahildir, harici bir kuruluma gerek yoktur.)
 
-URL ve indirme konumunu seçtikten sonra uygulama, videoyu en iyi video ve ses kalitesinde indirmeye başlayacaktır.
+İndir: Video URL'sini yapıştırın, klasörü seçin ve en yüksek kalitede indirmeye başlayın.
 
-Threading özelliği sayesinde indirme işlemi kısa sürede tamamlanır.
+⚡ Özellikler
 
------------------------------------------------------------------------------------------------------------------------------------------------
+Sınır Yok: 2 saat veya boyut sınırı olmadan indirme.
 
-ENG
+Hepsi Bir Arada: FFmpeg entegre edilmiştir, ek kurulum istemez.
 
-🎬 Unlimited Video Downloader: 
-I created this unlimited video downloader to bypass the 2-hour limit, paid services, and annoying ads found in most online downloaders—and now I’m sharing it with you.
+Hızlı: Threading mimarisi ile maksimum hızda veri işleme.
 
-🚀 How to Run
-Open the code in an editor (e.g., VS Code).
+🇺🇸 
+🎬 No Boundary Video Downloader Tired of 2-hour limits, paid tiers, and intrusive ads? This tool is built to give you total freedom. Now fully bundled as a standalone executable for a seamless experience.
 
-Install any required libraries that are missing from your system.
+🚀 How to Run (For Users)
 
-Run the main.py file.
+Download: Get the latest .exe file from the [Releases] section.
 
-After selecting the video URL and download location, the app will begin downloading the video in the best available video and audio quality.
+Run: Double-click main.exe. (FFmpeg and all dependencies are pre-bundled; no external setup required.)
 
-Thanks to threading, the download will complete in a short time.
+Download: Paste the URL, pick your folder, and enjoy high-quality video & audio.
+
+⚡ Key Features
+
+No Boundaries: Bypass time limits and paywalls.
+
+Bundled Efficiency: Includes FFmpeg out-of-the-box.
+
+High Performance: Powered by threading for rapid downloads.
